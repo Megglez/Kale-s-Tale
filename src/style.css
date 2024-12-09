@@ -26,8 +26,45 @@
 
 body {
   margin: 0;
+
+  #welcomeKale {
+    width: 50%;
+
+  }
+
+}
+
+.center {
+  display: flex;
+  justify-content: center;
 }
 
 h1 {
   text-align: center;
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+}
+
+footer {
+  background-color: greenyellow;
+  height: 3rem;
+  font-size: 1.5rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  font-size: 1rem;
+  text-align: center;
+
+}
+
+.modak-regular {
+  font-family: "Modak", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.shadows-into-light-regular {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
