@@ -1,0 +1,33 @@
+#navBar {
+  background-color: greenyellow;
+  height: 3rem;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 1rem;
+  user-select: none;
+
+  #btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 10rem;
+
+    .btn {
+      cursor: pointer;
+    }
+
+  }
+
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
