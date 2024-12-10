@@ -43,9 +43,15 @@
 body {
   margin: 0;
 
-  #welcomeKale {
-    width: 30%;
+  #container {
+    #welcomeKale {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
 
+    width: 30rem;
+    height: 30rem;
   }
 
 }
