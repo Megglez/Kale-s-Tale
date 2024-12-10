@@ -1,5 +1,5 @@
 #navBar {
-  background-color: greenyellow;
+  background-color: rgb(23, 179, 23);
   height: 3rem;
   font-size: 1.5rem;
   line-height: 3rem;
@@ -18,9 +18,25 @@
 
     .btn {
       cursor: pointer;
+      transition-duration: 200ms;
     }
 
+    .btn:hover {
+      color: white;
+      font-size: 1.7rem;
+
+      transition-duration: 200ms;
+
+    }
+
+
   }
+
+  #btnHome {
+    cursor: pointer;
+    transition-duration: 200ms;
+  }
+
 
 }
 
@@ -28,7 +44,7 @@ body {
   margin: 0;
 
   #welcomeKale {
-    width: 50%;
+    width: 30%;
 
   }
 
@@ -46,7 +62,7 @@ h1 {
 }
 
 footer {
-  background-color: greenyellow;
+  background-color: rgb(23, 179, 23);
   height: 3rem;
   font-size: 1.5rem;
   width: 100%;

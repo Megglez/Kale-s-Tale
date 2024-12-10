@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="src/style.css">
+  <link rel="stylesheet" href="/style.css" />
   <title>Kale's Tale</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,12 +15,12 @@
 <body>
 
   <div id="navBar">
-    <div class="modak-regular">
+    <div id="btnHome" class="modak-regular " onclick="backHome()">
       Kale's Tale
     </div>
     <div id="btns" class="shadows-into-light-regular">
-      <div class="btn">About</div>
-      <div class="btn">Blogs</div>
+      <div class="btn" onclick="about()">About</div>
+      <div class="btn" onclick="blogs()">Blogs</div>
     </div>
   </div>
 
@@ -30,8 +30,8 @@
     <img id="welcomeKale" src="images/kale-welcome.JPEG" alt="Kale">
   </div>
 
+  <script src="/main.js" type="module"></script>
 
-  <script src="/src/main.js"></script>
 </body>
 
 <footer>
